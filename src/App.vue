@@ -29,7 +29,7 @@ export default {
     height: 100%;
     min-height: 100%;
     min-width: 100%;
-    background-image: url('./assets/imgs/bg.jpg');
+    background-image: url('assets/imgs/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
