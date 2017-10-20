@@ -16,7 +16,14 @@
     <link rel="shortcut icon" type="image/ico" href="assets/imgs/favicon.ico">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <transition name="el-fade-in-linear">
+        <router-view></router-view>
+      </transition>
+    </div>
+    <div class="g-bg">
+      <canvas id="snow"></canvas>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
