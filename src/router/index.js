@@ -19,6 +19,11 @@ export default new Router({
       path: '/productlist',
       name: 'productlist',
       component: Productlist
+    },
+    {
+      path: '*',
+      name: 'default',
+      component: Index
     }
   ]
 })
